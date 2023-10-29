@@ -32,5 +32,5 @@ async def earnings_dates_snapshot(request_data: RequestData, api_key: APIKey = D
 
 
 @app.get("/")
-async def earnings_dates_snapshot(api_key: APIKey = Depends(get_api_key_data)):
+async def earnings_dates_snapshot():
     return {"status": "OK!"}
