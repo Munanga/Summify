@@ -15,7 +15,8 @@ requirements = [
     "requests==2.28.1",
     "fastapi",
     "uvicorn",
-    "openai"
+    "openai",
+    "gunicorn"
 ]
 
 dev_requirements = [
